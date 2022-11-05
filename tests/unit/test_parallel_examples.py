@@ -1,15 +1,27 @@
 from parallel_examples.core import odd_numbers, even_numbers, all_numbers
 
-max_value_parameter = 500000000
+size = 50000000
 
 
-def test_odd_numbers():
-    result = odd_numbers(max_value=max_value_parameter)
+def test_odd_numbers() -> None:
+    """
+    Test to add Odd Numbers to a List
+    :return: None
+    """
+    result = odd_numbers(size=size)
 
 
-def test_even_numbers():
-    result = even_numbers(max_value=max_value_parameter)
+def test_even_numbers() -> None:
+    """
+    Test to add Even Numbers to a List
+    :return: None
+    """
+    result = even_numbers(size=size)
 
 
 def test_all_numbers():
-    result = all_numbers(max_value=max_value_parameter)
+    """
+    Test to add All Numbers to a List
+    :return: None
+    """
+    result = all_numbers(size=size)
