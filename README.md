@@ -1,6 +1,6 @@
 # PyTest Monkeypatch Example
 
-This repo contains the sample code for the article - [The Ultimate Guide To Using Pytest Monkeypatch with 2 Code Examples](https://pytest-with-eric.com/pytest-best-practices/pytest-monkeypatch/)
+This repo contains the sample code for the article - [Save Money On You CI/CD Pipelines Using Pytest Parallel (with Example)](https://pytest-with-eric.com/pytest-best-practices/pytest-parallel/)
 
 
 # Requirements
@@ -12,10 +12,16 @@ pip install -r requirements.txt
 ```
 If you don't have Pip installed please follow instructions online on how to do it.
 
-# How To Run the Unit Tests
+# How To Run the Unit Tests - Sequential
 To run the Unit Tests, from the root of the repo run
 ```commandline
 pytest ./tests/unit/
+```
+
+# How To Run the Unit Tests - Parallel using the `xdist` plugin
+To run the Unit Tests, from the root of the repo run
+```commandline
+pytest ./tests/unit/ -v -s -n auto
 ```
 
 If you have any questions about the project please raise an Issue on GitHub. 
