@@ -1,4 +1,4 @@
-# PyTest Monkeypatch Example
+# Pyrest Parallel Example using XFail
 
 This repo contains the sample code for the article - [Save Money On You CI/CD Pipelines Using Pytest Parallel (with Example)](https://pytest-with-eric.com/pytest-best-practices/pytest-parallel/)
 
